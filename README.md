@@ -1,12 +1,12 @@
 # Introdução à Ciência da Computação com Python Parte 1
 Esse jogo foi desenvolvido durante esse curso fornecido pela USP na plataforma do Coursera.
 
-# Jogo do Nim
+## **Jogo do Nim**
 Você conhece o jogo do NIM? Nesse jogo, **n** peças são inicialmente dispostas numa mesa ou tabuleiro. Dois jogadores jogam alternadamente, retirando pelo menos 1 e no máximo **m** peças cada um. Quem tirar as últimas peças possíveis ganha o jogo.
 
 Existe uma estratégia para ganhar o jogo que é muito simples: ela consiste em deixar sempre múltiplos de **(m+1)** peças ao jogador oponente.
 
-## Objetivo
+### **Objetivo**
 
 Você deverá escrever um programa na linguagem Python, versão 3, que permita a uma "vítima" jogar o NIM contra o computador. O computador, é claro, deverá seguir a estratégia vencedora descrita acima.
 
@@ -19,7 +19,7 @@ Uma vez iniciado o jogo, a estratégia do computador para ganhar consiste em dei
 
 Seu trabalho, então, será implementar o Jogo e fazer com que o computador se utilize da estratégia vencedora.
 
-## Seu Programa
+### **Seu Programa**
 
 Com o objetivo do EP já definido, uma dúvida que deve surgir nesse momento é como modelar o jogo de forma que possa ser implementado em Python 3 correspondendo rigorosamente às especificações descritas até agora.
 
@@ -35,13 +35,13 @@ Observe que, para isso funcionar, seu programa deve sempre "lembrar" qual é o n
 
 **Cuidado**: o corretor automático não funciona bem se você tiver alguma chamada a input() antes da definição de todas as funções do jogo (a menos que essa chamada esteja dentro de uma função). Se seu programa usar input() sem que ele esteja dentro de alguma função, coloque-o no final do programa.
 
-### Campeonatos
+### **Campeonatos**
 
 Como todos sabemos, uma única rodada de um jogo não é suficiente para definir quem é o melhor jogador. Assim, uma vez que a função **partida** esteja funcionando, você deverá criar uma outra função chamada **campeonato**. Essa nova função deve realizar três partidas seguidas do jogo e, ao final, mostrar o placar dessas três partidas e indicar o vencedor do campeonato. O placar deve ser impresso na forma
 
 **Placar: Você ??? X ??? Computador**
 
-## Execução
+### **Execução**
 
 Dado que é possível jogar partidas individuais ou campeonatos, seu programa deve começar solicitando ao usuário que escolha se prefere jogar apenas uma partida (opção **1**) ou um campeonato (opção **2**).
 
